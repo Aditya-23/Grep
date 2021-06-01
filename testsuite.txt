@@ -1,0 +1,13 @@
+./project this data2
+./project -i this data2
+./project -i -w this data2
+./project -f data1 data2
+./project -w -f data1 data2
+./project -i -f data1 data2
+./project -b this data2
+./project -b -c this data2
+./project -H -b this data2
+./project -hH -b this data2
+./project -iw -H -b this data2
+./project -m 2 -iw -H -b data2
+./project -m 2 -c -H data2 data1
